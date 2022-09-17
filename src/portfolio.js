@@ -23,7 +23,7 @@ const greeting = {
   username: "Abdul Quddous",
   title: "Hi, I'm Kudos",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineer, with expertise in building Web and Mobile applications with JavaScript. Skilled in Reactjs / Nextjs / Nodejs / Express / React Native."
+    "A passionate Full Stack Engineer, with expertise in building Web and Mobile applications with JavaScript. Skilled in Reactjs / Nextjs / Nodejs / Express / React Native."
   ),
   resumeLink: "https://www.linkedin.com/in/kudos02/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -53,9 +53,12 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop highly secure, scalable and reliable backends using everyone's favourite NodeJs and MongoDB"
+    ),
+    emoji("⚡ Follow international coding standards and ethics"),
+    emoji(
+      "⚡ Integration of third party services such as Social Logins / Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -152,16 +155,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (ReactJs)", //Insert stack or technology you have experience in
+      progressPercentage: "99%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend (NodeJs)",
+      progressPercentage: "99%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "99%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
