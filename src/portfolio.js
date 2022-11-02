@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Abdul Quddous",
-  title: "Hi, I'm Kudos",
+  title: "Hi, I'm Abdul Quddous",
   subTitle: emoji(
     "A passionate Full Stack Engineer, with expertise in building Web and Mobile applications with JavaScript. Skilled in Reactjs / Nextjs / Nodejs / Express / React Native."
   ),
@@ -33,12 +33,12 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/kudos02",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/kudos02/",
   gmail: "quddoux112@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/Mian.Abdul.kuddoos",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -151,15 +151,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend (ReactJs)", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "99%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend (NodeJs)",
+      Stack: "Backend",
       progressPercentage: "99%"
     },
     {
-      Stack: "Programming",
+      Stack: "Javascript",
       progressPercentage: "99%"
     }
   ],
@@ -180,12 +180,12 @@ const workExperiences = {
       descBullets: ["Java", "ReactJs", "NextJS", "React-Native"]
     },
     {
-      role: "Full Stack Developer",
+      role: "Full Stack Engineer",
       company: "Self-Employed",
       companylogo: require("./assets/images/feature-image.png"),
       date: "Jan 2022 – Present",
-      desc: "Self Learning and working with people from all over the world is an amazing experience for me. ALways seeking for good oppurtunity where I can use my skills to be beneficial. Always believe in team work.",
-      descBullets: ["Ready to accept challenges", "Team Management", "Self-growth", "Team-growth", 'Helping Hand in team']
+      desc: "Believe in Self Learning, Working with people from all over the world, is an nourishing experience for me. ALways seeking for good oppurtunity where I can use my skills to be beneficial. Always believe in team work.",
+      descBullets: ["MERN Stack", "NodeJs", "Express", "ReactJs", 'NextJs', 'Redux TK', 'Context Api']
     }
   ]
 };

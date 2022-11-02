@@ -29,3 +29,15 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.software-skill-inline > svg:hover {
+  color: $skillsColor;
+}
+
+.software-skill-inline > svg:hover ~ p {
+  color: $skillsColor;
+}
+
+.software-skill-inline > svg {
+  color: #868E96;
+}

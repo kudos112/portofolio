@@ -28,6 +28,13 @@
   color: $subTitle;
 }
 
+.skill-name-percentage{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

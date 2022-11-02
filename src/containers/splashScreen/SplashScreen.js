@@ -1,7 +1,9 @@
 import React, {useContext} from "react";
 import "./SplashScreen.css";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import {greeting, splashScreen} from "../../portfolio";
+import { greeting, splashScreen } from "../../portfolio";
+import InfinityLoading from "../../assets/lottie/inifnity-loading.json"
+import CuberLoader from "../../assets/lottie/2533-loading-rectangles.json";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function SplashScreen() {
@@ -9,7 +11,7 @@ export default function SplashScreen() {
   return (
     <div className={isDark ? "dark-mode splash-container" : "splash-container"}>
       <div className="splash-animation-container">
-        <DisplayLottie animationData={splashScreen.animation} />
+        <DisplayLottie animationData={CuberLoader} />
       </div>
       <div className="splash-title-container">
         <span className="grey-color"> &lt;</span>
