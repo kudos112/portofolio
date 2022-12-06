@@ -1,6 +1,6 @@
 {
   "homepage": "https://kudos-dev.vercel.app/",
-  "name": "Kudos-dev",
+  "name": "kudos-dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
