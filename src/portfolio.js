@@ -184,8 +184,16 @@ const workExperiences = {
       company: "Self-Employed",
       companylogo: require("./assets/images/feature-image.png"),
       date: "Jan 2022 – Present",
-      desc: "Believe in Self Learning, Working with people from all over the world, is an nourishing experience for me. ALways seeking for good oppurtunity where I can use my skills to be beneficial. Always believe in team work.",
-      descBullets: ["MERN Stack", "NodeJs", "Express", "ReactJs", 'NextJs', 'Redux TK', 'Context Api']
+      desc: "Believe in Self Learning, Working with people from all over the world, is an nourishing experience for me. ALways seeking for good oppurtunity where I can use my skills to be beneficial. Strongly believe in team work.",
+      descBullets: [
+        "MERN Stack",
+        "NodeJs",
+        "Express",
+        "ReactJs",
+        "NextJs",
+        "Redux TK",
+        "Context Api"
+      ]
     }
   ]
 };
@@ -303,8 +311,7 @@ const blogSection = {
     {
       url: "https://medium.com/@kudos112/date-in-yesterday-today-or-tomorrows-format-using-moment-js-ff74b6f096d0",
       title: "Date in Yesterday, Today, or Tomorrow’s format using moment.js",
-      description:
-        "Trying to Explain Moment.js working with examples."
+      description: "Trying to Explain Moment.js working with examples."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -342,6 +349,19 @@ const podcastSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const aboutSection = {
+  title: emoji("About Me 🚀"),
+  subtitle: "I LOVE TO CREATE SCALABLE BACKENDS USING NODEJS",
+
+  // Please Provide with Your Podcast embeded Link
+  description1: `As a Full Stack MERN Engineer with one year of experience, I am a dedicated team player who believes in writing clean, efficient code.`,
+  description2: `I am constantly seeking out opportunities to improve my skills and advance my knowledge in order to provide the best possible solutions for my clients. With a strong understanding of both front-end and back-end development, I am able to effectively design and implement complex web applications using the MERN stack. I am skilled in utilizing React.js for building user-friendly interfaces, Node.js for creating scalable and efficient server-side applications, and MongoDB for managing and storing data.`,
+  description3: `In addition to my technical expertise, I am a highly organized and detail-oriented individual who is committed to delivering high-quality work on time. I am confident in my ability to work effectively in a team setting, and I am always open to constructive feedback and suggestions for improvement.
+  Overall, I am a passionate and driven Full Stack MERN Engineer who is ready to take on any challenge and deliver exceptional results for my clients.`,
+  
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -374,6 +394,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
+  aboutSection,
   contactInfo,
   twitterDetails,
   isHireable
