@@ -46,7 +46,7 @@ function Header() {
           )}
           {viewSkills && (
             <li>
-              <a href="#About">About Me</a>
+              <a href="#About">About Me </a>
             </li>
           )}
           {viewExperience && (
