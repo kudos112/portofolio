@@ -8,17 +8,16 @@ const ToggleSwitch = () => {
   const styleContext = useContext(StyleContext);
 
   return (
-    <label className="switch">
-      <input
-        type="checkbox"
-        checked={ isDark }
-        onChange={() => {
-          styleContext.changeTheme();
-          setChecked(!isChecked);
-        }}
-      />
-      <span className="slider round"></span>
-    </label>
-  );
+    <div
+      onClick={() => {
+        styleContext.changeTheme();
+        setChecked(!isChecked);
+      }}
+      style={{fontSize: "30px"}}
+      title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+    >
+      {isDark ? "☀️" : `🌒`}
+    </div>
+  )
 };
 export default ToggleSwitch;
