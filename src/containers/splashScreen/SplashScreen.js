@@ -1,8 +1,7 @@
 import React, {useContext} from "react";
 import "./SplashScreen.css";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import { greeting, splashScreen } from "../../portfolio";
-import InfinityLoading from "../../assets/lottie/inifnity-loading.json"
+import {greeting} from "../../portfolio";
 import CuberLoader from "../../assets/lottie/2533-loading-rectangles.json";
 import StyleContext from "../../contexts/StyleContext";
 
