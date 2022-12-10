@@ -25,15 +25,15 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Engineer, with expertise in building Web and Mobile applications with JavaScript. Skilled in Reactjs / Nextjs / Nodejs / Express / React Native."
   ),
-  resumeLink: "https://www.linkedin.com/in/kudos02/", // Set to empty to hide the button
+  resumeLink: "https://www.linkedin.com/in/kudos112/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/kudos02",
-  linkedin: "https://www.linkedin.com/in/kudos02/",
+  github: "https://github.com/kudos112",
+  linkedin: "https://www.linkedin.com/in/kudos112/",
   gmail: "quddoux112@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/Mian.Abdul.kuddoos",
@@ -373,7 +373,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "kudos02_", //Replace "twitter" with your twitter username without @
+  userName: "kudos112_", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
