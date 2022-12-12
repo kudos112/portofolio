@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dc7d5d5f28517d31b27387c2283d093",
+    "revision": "f0e7e66bb5c5bfd66544e96ea26ca5ce",
     "url": "/index.html"
   },
   {
-    "revision": "836db08d222641efa304",
+    "revision": "e83d4ee39f064a6839ed",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "6a9f9900f1b1b6ed4bde",
+    "revision": "01e05ca053437239a1e3",
     "url": "/static/css/4.d7ceb645.chunk.css"
   },
   {
-    "revision": "608cd3508ee0d7f353b9",
-    "url": "/static/css/main.764f0529.chunk.css"
+    "revision": "268d74a6c637b706e627",
+    "url": "/static/css/main.e5f3d734.chunk.css"
   },
   {
-    "revision": "6c6e24c17d1da9fd5881",
-    "url": "/static/js/2.9030ed92.chunk.js"
+    "revision": "5a1b50ff7841db206b36",
+    "url": "/static/js/2.3a64ee11.chunk.js"
   },
   {
-    "revision": "b045256696e9edb485ef902b6be54c14",
-    "url": "/static/js/2.9030ed92.chunk.js.LICENSE.txt"
+    "revision": "408f8ade359af8695a328ed937291fdf",
+    "url": "/static/js/2.3a64ee11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "836db08d222641efa304",
-    "url": "/static/js/3.dec0d75a.chunk.js"
+    "revision": "e83d4ee39f064a6839ed",
+    "url": "/static/js/3.db96b1a1.chunk.js"
   },
   {
-    "revision": "6a9f9900f1b1b6ed4bde",
-    "url": "/static/js/4.75e606ec.chunk.js"
+    "revision": "01e05ca053437239a1e3",
+    "url": "/static/js/4.3eec22dd.chunk.js"
   },
   {
-    "revision": "608cd3508ee0d7f353b9",
-    "url": "/static/js/main.77ff15b9.chunk.js"
+    "revision": "268d74a6c637b706e627",
+    "url": "/static/js/main.ddfd1d11.chunk.js"
   },
   {
-    "revision": "0567ccdaf28e69b1d27b",
-    "url": "/static/js/runtime-main.8a9ea856.js"
+    "revision": "9077754fe25927e86054",
+    "url": "/static/js/runtime-main.035b3903.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -90,9 +90,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
-  },
-  {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
   }
 ]);
