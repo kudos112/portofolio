@@ -42,9 +42,12 @@ export default function GithubProfileCard({prof}) {
               </div>
             )}
             <div className="opp-div">
-              <span className="desc-prof">
+              <p className="desc-prof">
                 Open for opportunities: {prof.hireable}
-              </span>
+              </p>
+              <p className="desc-prof">
+                Open for collaborations with Tech Startups and Companies.
+              </p>
             </div>
             <SocialMedia />
           </div>

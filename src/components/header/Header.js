@@ -8,7 +8,7 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection
+  blogSection,
 } from "../../portfolio";
 
 function Header() {
@@ -64,7 +64,8 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a href="#">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a>
               <ToggleSwitch />
             </a>
           </li>

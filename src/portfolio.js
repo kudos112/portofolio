@@ -22,9 +22,8 @@ const illustration = {
 const greeting = {
   username: "Abdul Quddous",
   title: "Hi, I'm Abdul Quddous",
-  subTitle: emoji(
-    "A passionate Full Stack Engineer, with expertise in building Web and Mobile applications with JavaScript. Skilled in Reactjs / Nextjs / Nodejs / Express / React Native."
-  ),
+  subTitle:
+    "Full-Stack Engineer having Entrepreneurship passion with a drive for innovation of developing impactful solutions. Combining technical expertise with entrepreneurial mindset to innovate solutions that solve real-world problems.",
   resumeLink: "https://www.linkedin.com/in/kudos112/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -354,11 +353,11 @@ const aboutSection = {
   subtitle: "I LOVE TO CREATE SCALABLE BACKENDS USING NODEJS",
 
   // Please Provide with Your Podcast embeded Link
-  description1: `As a Full Stack MERN Engineer with one year of experience, I am a dedicated team player who believes in writing clean, efficient code.`,
-  description2: `I am constantly seeking out opportunities to improve my skills and advance my knowledge in order to provide the best possible solutions for my clients. With a strong understanding of both front-end and back-end development, I am able to effectively design and implement complex web applications using the MERN stack. I am skilled in utilizing React.js for building user-friendly interfaces, Node.js for creating scalable and efficient server-side applications, and MongoDB for managing and storing data.`,
-  description3: `In addition to my technical expertise, I am a highly organized and detail-oriented individual who is committed to delivering high-quality work on time. I am confident in my ability to work effectively in a team setting, and I am always open to constructive feedback and suggestions for improvement.
-  Overall, I am a passionate and driven Full Stack MERN Engineer who is ready to take on any challenge and deliver exceptional results for my clients.`,
-  
+  description1: `As a MERN Stack Engineer with an entrepreneurial mindset, I am passionate about solving real-world problems through innovative technology solutions. With my strong background in developing full-stack applications using MERN (MongoDB, Express, React, Node.js) technology, I have the skills and experience necessary to bring any project to life.`,
+  description2: `I understand the importance of building solutions that not only meet the needs of businesses and consumers but also create positive social impact. This is why I am committed to utilizing my technical skills to develop software that solves real-world problems and improves people's lives.`,
+  description3: `As an entrepreneur, I am not afraid to take risks and explore new ideas. I am constantly seeking out opportunities to learn and grow, both as a developer and as a businessperson. I believe that by staying curious and embracing innovation, I can help drive positive change in the world.`,
+  description4: `In short, I am a mid-level MERN Stack developer with an entrepreneurial mindset who is passionate about using technology to solve real-world problems. If you are looking for a developer who can bring innovative solutions to your business or organization, then look no further than me. Let's work together to make a positive impact on the world.`,
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -377,7 +376,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
