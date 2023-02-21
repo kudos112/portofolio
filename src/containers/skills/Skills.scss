@@ -49,6 +49,8 @@
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
+    text-align:justify;
+    word-break:keep-all;
   }
   .skills-main-div {
     flex-direction: column;

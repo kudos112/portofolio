@@ -31,6 +31,8 @@
 }
 .blog-main-div {
   display: flex;
+  line-height: 30px;
+  color: $subTitle;
 }
 .blog-image-div > img {
   max-width: 100%;

@@ -34,6 +34,11 @@ export default function About() {
             {aboutSection.display && aboutSection.description3}
             {/* </div> */}
           </div>
+          <div className="blog-main-div">
+            {/* <div className="blog-text-div"> */}
+            {aboutSection.display && aboutSection.description4}
+            {/* </div> */}
+          </div>
         </div>
       </div>
     </Fade>
