@@ -21,7 +21,10 @@ export default function Achievement() {
                   : "heading achievement-heading"
               }
             >
-              {achievementSection.title}
+              {`${achievementSection.title} `}
+              <span className="icon" role="img" aria-label="achievement">
+                🏆
+              </span>
             </h1>
             <p
               className={

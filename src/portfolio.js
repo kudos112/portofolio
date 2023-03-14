@@ -49,16 +49,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji(
-      "⚡ Develop highly secure, scalable and reliable backends using everyone's favourite NodeJs and MongoDB"
-    ),
-    emoji("⚡ Follow international coding standards and ethics"),
-    emoji(
-      "⚡ Integration of third party services such as Social Logins / Firebase/ AWS / Digital Ocean"
-    )
+    "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "Develop highly secure, scalable and reliable backends using everyone's favourite NodeJs and MongoDB",
+    "Follow international coding standards and ethics",
+    "Integration of third party services such as Social Logins / Firebase/ AWS / Digital Ocean"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -242,7 +236,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications",
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -294,7 +288,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1TqluOPjs9XLoSSAtJp7Heil2uMnvkOQM/view?usp=sharing"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -349,7 +343,7 @@ const podcastSection = {
 };
 
 const aboutSection = {
-  title: emoji("About Me 🚀"),
+  title: "About Me ",
   subtitle: "I LOVE TO CREATE SCALABLE BACKENDS USING NODEJS",
 
   // Please Provide with Your Podcast embeded Link

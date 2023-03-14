@@ -9,7 +9,12 @@ export default function About() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="About">
         <div className="blog-header">
-          <h1 className="blog-header-text">{aboutSection.title}</h1>
+          <h1 className="blog-header-text">
+            {`${aboutSection.title} `}{" "}
+            <span className="icon" role="img" aria-label="rocket">
+              🚀
+            </span>
+          </h1>
           <p
             className={
               isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"

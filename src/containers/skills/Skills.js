@@ -47,15 +47,19 @@ export default function Skills() {
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
+                  <p key={i}>
+                    <span className="icon" role="img" aria-label="lightening">
+                      ⚡
+                    </span>
+                    <span
+                      className={
+                        isDark
+                          ? "dark-mode subTitle skills-text"
+                          : "subTitle skills-text"
+                      }
+                    >
+                      {` ${skills}`}
+                    </span>
                   </p>
                 );
               })}
