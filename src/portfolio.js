@@ -180,7 +180,7 @@ const workExperiences = {
     },
     {
       role: "Full Stack Engineer",
-      company: "Self-Employed",
+      company: "Freelancer",
       companylogo: require("./assets/images/feature-image.png"),
       date: "Jan 2022 – Present",
       desc: "Believe in Self Learning, Working with people from all over the world, is an nourishing experience for me. ALways seeking for good oppurtunity where I can use my skills to be beneficial. Strongly believe in team work.",
@@ -248,53 +248,53 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "HackerRank Problem Solving (Basic)",
+      subtitle: "Credential ID: 3BF6FF3B0F22",
+      image: require("./assets/images/hackerrank_logo.svg"),
+      imageAlt: "Hacker Rank Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Click to View Certificate",
+          url: "https://www.hackerrank.com/certificates/3bf6ff3b0f22"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Javascrpit Advanced Certification Course",
+      subtitle: "Credential ID: 1625594972779",
+      image: require("./assets/images/programing_hub2.jpeg"),
+      imageAlt: "Programming Hub Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Click to View Certificate",
+          url: "https://drive.google.com/file/d/1YlXm5tu-3os2EJJTtEXudW32rYDEzCbM/view?usp=sharing"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "React Development Certification Course",
+      subtitle: "Credential ID: 1626672541613",
+      image: require("./assets/images/programing_hub2.jpeg"),
+      imageAlt: "Programming Hub Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Click to View Certificate",
+          url: "https://drive.google.com/file/d/16kyvb9A6Y_PvAof0iY9IjDTMs9mGL7vh/view?usp=sharing"
         }
       ]
-    }
+    },
+    {
+      title: "Software Testing Certification Course",
+      subtitle: "Credential ID: 1626753445227",
+      image: require("./assets/images/programing_hub2.jpeg"),
+      imageAlt: "Programming Hub Logo",
+      footerLink: [
+        {
+          name: "Click to View Certificate",
+          url: "https://drive.google.com/file/d/1TqluOPjs9XLoSSAtJp7Heil2uMnvkOQM/view?usp=sharing"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

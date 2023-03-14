@@ -9,6 +9,7 @@ import {
   skillsSection,
   openSource,
   blogSection,
+  achievementSection
 } from "../../portfolio";
 
 function Header() {
@@ -17,6 +18,7 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewBlog = blogSection.display;
+  const viewAchievements = achievementSection.display;
 
   return (
     <Headroom>
@@ -43,6 +45,11 @@ function Header() {
           {viewSkills && (
             <li>
               <a href="#About">About Me </a>
+            </li>
+          )}
+          {viewAchievements && (
+            <li>
+              <a href="#achievements">Achievements</a>
             </li>
           )}
           {viewExperience && (

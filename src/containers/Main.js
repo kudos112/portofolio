@@ -10,9 +10,9 @@ import About from "./About/About";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
+import Achievements from "./achievement/Achievement";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -53,6 +53,7 @@ const Main = () => {
             <About />
             <StackProgress />
             <Education />
+            <Achievements />
             <WorkExperience />
             <Projects />
             <Blogs />
