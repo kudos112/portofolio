@@ -15,6 +15,9 @@ export default function Contact() {
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <span className="icon" role="img" aria-label="rocket">
+              ☎️
+            </span>
             <p
               className={
                 isDark

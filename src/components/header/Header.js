@@ -68,6 +68,9 @@ function Header() {
             </li>
           )}
           <li>
+            <a href="#hireme">Hire Me</a>
+          </li>
+          <li>
             <a href="#contact">Contact Me</a>
           </li>
           <li>

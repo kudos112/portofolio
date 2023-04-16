@@ -35,7 +35,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/kudos112/",
   gmail: "quddoux112@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/Mian.Abdul.kuddoos",
+  // facebook: "https://www.facebook.com/Mian.Abdul.kuddoos",
   discord: "https://discordapp.com/users/1056230162208919562",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -306,6 +306,26 @@ const blogSection = {
       url: "https://medium.com/@kudos112/date-in-yesterday-today-or-tomorrows-format-using-moment-js-ff74b6f096d0",
       title: "Date in Yesterday, Today, or Tomorrow’s format using moment.js",
       description: "Trying to Explain Moment.js working with examples."
+    },
+    {
+      url: "https://kudos112.medium.com/git-cherry-pick-applying-commits-across-branches-abe765569e6b",
+      title: "Git Cherry-Pick: Applying Commits Across Branches",
+      description:
+        "In Git, cherry-pick is a command used to apply a specific commit from one branch to another. It allows you to select a commit (or multiple…"
+    },
+    {
+      url: "https://medium.com/@kudos112/create-a-shortcut-command-instead-of-typing-a-long-one-again-and-again-883732eb6607",
+      title:
+        "Create a shortcut command instead of typing a long one again and again",
+      description:
+        "To create a shortcut command for a bigger command in Ubuntu using the zsh terminal, you can create an alias."
+    },
+    {
+      url: "https://medium.com/@kudos112/boost-your-linux-server-performance-with-a-modified-swap-file-a-step-by-step-guide-744a3f768113",
+      title:
+        "Boost Your Linux Server Performance with a Modified Swap File: A Step-by-Step Guide",
+      description:
+        "You can try recreating the swap file with the correct header using the following steps..."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -357,7 +377,7 @@ const aboutSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me "),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3099091509",
