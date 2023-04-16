@@ -11,6 +11,7 @@ import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
+import StartupProject from "./StartupProjects/StartupProject";
 import SplashScreen from "./splashScreen/SplashScreen";
 import Achievements from "./achievement/Achievement";
 import {splashScreen} from "../portfolio";
@@ -51,15 +52,16 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
+            <StartupProject />
+            <HireMe />
+            <Blogs />
             <About />
-            <StackProgress />
-            <Education />
             <Achievements />
             <WorkExperience />
             <Projects />
-            <Blogs />
+            <StackProgress />
+            <Education />
             {/* <Twitter /> */}
-            <HireMe />
             <Profile />
             <Footer />
             <ScrollToTopButton />

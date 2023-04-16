@@ -42,6 +42,19 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewOpenSource && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          <li>
+            <a href="#hireme">Hire Me</a>
+          </li>
+          {viewBlog && (
+            <li>
+              <a href="#blogs">Blogs</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#About">About Me </a>
@@ -57,19 +70,6 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          <li>
-            <a href="#hireme">Hire Me</a>
-          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
